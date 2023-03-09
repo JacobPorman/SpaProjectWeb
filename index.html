@@ -27,14 +27,27 @@
     />
   </head>
   <body>
-    <header>
+    <header class="position-fixed-top">
       <div class="container-fluid m-0 p-0 bg-light">
         <div class="logo text-center p-0 m-0">
           <img src="./image/logo/logo(500x300).png" alt="SpaLogo" />
         </div>
-        <div class="icon p-0 m-0">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+        <div class="icon">
+          <form action="" method="get" id="form-search">
+            <div class="searchbar">
+              <input
+                class="search_input"
+                type="text"
+                name=""
+                placeholder="Search..."
+              />
+              <button href="#" class="search_icon">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </form>
+          <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+          <!-- <i class="fa-solid fa-cart-shopping"></i> -->
         </div>
 
         <!-- A grey horizontal navbar that becomes vertical on small screens -->
