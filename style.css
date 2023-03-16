@@ -168,3 +168,18 @@
     text-decoration: none;
     color: #786f69;
 }
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+@media only screen and (max-width: 768px) {
+    .content-footer{
+        display: block;
+    }
+}
